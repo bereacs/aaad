@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title></title>  
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="header clearfix">
+      <div class="logo"> {{ site.logo }}</div>
+
+      <nav class="menu_main">
+        {% include navbar.html %}
+      </nav>
+    </header>
+
+
+    <div class="info">
+      <article class="hero clearfix">
+        <div class="col_100">
+          <h1> {{site.title }}</h1>
+          <h2> {{ site.tagline }}</h2>
+        </div>
+      </article>
+
+
+      <article class="article clearfix">
+        <div class="col_100">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+    
+    <footer class="footer clearfix">
+      <div class="copyright">Site stylesheet (c) 2012 <a href="http://cssr.ru/simpliste/">Renat Rafikov</a></div>
+
+      <nav class="menu_bottom">
+        <ul>
+          <li class="active"><a href="#">Bottom Menu</a></li>
+          <li><a href="#">Nav Goes Here</a></li>
+          <li><a href="#">More Nav</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Site Configuration
+title: Better Apps for a Better World
+tagline: Apps are made by people like you.
+base:
+  
+# Server Config
+auto: true
+permalink: /:categories/:year/:month/:day/:title
