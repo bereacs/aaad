@@ -1,0 +1,24 @@
+# Links for Git hosting options
+
+I'd like some git hosting options for the upper division course.
+
+https://git.wiki.kernel.org/index.php/Gitweb
+
+http://projects.ceondo.com/p/indefero/
+
+http://www.redmine.org/
+
+http://www.gitalist.com/
+
+http://gitblit.com/
+
+https://github.com/klaussilveira/gitlist#readme
+
+
+http://ao2.it/wiki/How_to_setup_a_GIT_server_with_gitosis_and_gitweb
+
+https://github.com/narkisr/gitolite-webui
+
+http://blog.muehlbachler.org/2012/01/how-to-install-a-private-debian-git-server-using-gitolite-and-gitlabhq/
+
+
