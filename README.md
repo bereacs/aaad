@@ -1,7 +1,7 @@
-babw
+aaad
 ====
 
-WWW pages for the course "Better Apps for a Better World"
+WWW pages for the team study course "Advanced Android App Development" offered at Berea College during the spring 2013 term. 
 
 Testing
 =======
