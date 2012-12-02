@@ -1,10 +1,11 @@
 #!/bin/sh
 
 GIT_DIR_="$(git rev-parse --git-dir)"
+UTIL_DIR_="GIT_DIR_/_util"
 BRANCH="$(git rev-parse --symbolic --abbrev-ref $(git symbolic-ref HEAD))"
 
-PRE_PUSH="$GIT_DIR_/hooks/pre-push"
-POST_PUSH="$GIT_DIR_/hooks/post-push"
+PRE_PUSH="$UTIL_DIR_/hooks/pre-push"
+POST_PUSH="$UTIL_DIR_/hooks/post-push"
 
 test -x "$PRE_PUSH" &&
     exec "$PRE_PUSH" "$BRANCH" "$@"
