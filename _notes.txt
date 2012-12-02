@@ -1,3 +1,7 @@
+# Re push/commit
+
+http://stackoverflow.com/questions/1797074/local-executing-hook-after-a-git-push
+
 # Links for Git hosting options
 
 I'd like some git hosting options for the upper division course.
