@@ -1,3 +1,0 @@
-#!/bin/sh
-git push -f origin master:gh-pages
-echo "Forced push of master to gh-pages"
