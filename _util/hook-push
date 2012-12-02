@@ -1,7 +1,7 @@
 #!/bin/sh
 
 GIT_DIR_="$(git rev-parse --git-dir)"
-UTIL_DIR_="GIT_DIR_/_util"
+UTIL_DIR_="$GIT_DIR_/_util"
 BRANCH="$(git rev-parse --symbolic --abbrev-ref $(git symbolic-ref HEAD))"
 
 PRE_PUSH="$UTIL_DIR_/hooks/pre-push"
