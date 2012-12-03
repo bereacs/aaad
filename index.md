@@ -8,6 +8,8 @@ layout: minimal
 
 And, one more test.
 
+This repository now only uses the gh-pages branch, as I've removed "master."
+
 # December 2, 2012
 
 Lets see if the post-commit hook does its job.
