@@ -4,16 +4,9 @@ date: 2012 11 05
 layout: minimal
 ---
 
-# December 2, 2012
+# December 14, 2012
 
-And, one more test.
+**Assignment**: [Planning, Installs, and Testing]({{site.base}}/todo/assignments.html#planning_installs_testing)
 
-This repository now only uses the gh-pages branch, as I've removed "master."
+We have a lot to do, and I'm going to ask you to get a big jump on things by getting software installed and set up on your machines before the start of term. 
 
-# December 2, 2012
-
-Lets see if the post-commit hook does its job.
-
-# November 29, 2012
-
-There are many things afoot. 

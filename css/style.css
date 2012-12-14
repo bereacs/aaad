@@ -1,7 +1,7 @@
 /* "Simpliste" template. Renat Rafikov. http://cssr.ru/simpliste/ */
 
-@import url('reset.css');
-@import url('skin.css');
+@import url('{{site.base}}/css/reset.css');
+@import url('{{site.base}}/css/skin.css');
 
 /* Fonts for the site. */
 @import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);

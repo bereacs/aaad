@@ -1,7 +1,7 @@
 # Site Configuration
 title: Advanced Android App Development
 tagline: We have some gravity to defy.
-base:
+base: /aaad
   
 # Server Config
 auto: true
